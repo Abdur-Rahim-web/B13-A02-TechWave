@@ -1,5 +1,5 @@
 
-.font-inter {
+.font-inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400px;
@@ -30,7 +30,8 @@
    font-size: 3.5rem;
    font-weight: 700;
    background: linear-gradient(#F7E93F,#FB09B4,#9100F8);
-   -webkit-background-clip: text; 
+   -webkit-background-clip: text;
+    background-clip: text;
    -webkit-text-fill-color: transparent;
 }
 .nav-item a{
@@ -95,6 +96,9 @@ hr{
   margin-left: 120px;
 }
 .btn2{
+  border: 1px solid #00FF88;
+  background: transparent;
+  color: #00FF88;
 
 }
 /* about related style */
