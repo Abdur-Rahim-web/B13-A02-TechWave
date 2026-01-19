@@ -37,7 +37,7 @@
   padding: 12px 16px;
   border-radius: 1000px;
   border: none;
-  background-color: aqua;
+  background: linear-gradient(#F7E93F,#FB09B4,#9100F8);
 }
 hr{
   color: #40364d09;
