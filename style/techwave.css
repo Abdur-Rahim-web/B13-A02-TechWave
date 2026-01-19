@@ -5,3 +5,137 @@
   font-weight: 400px;
   font-style: normal;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+/* share related style  */
+
+/* header related style */
+.header{
+  
+}
+.nav-container{
+  width:1600px;
+  max-width: 100%;
+  border: 1px solid red;
+  display: flex;
+  background-color: #412567;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 150px;
+}
+.nav-item a{
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500px;
+  color: #FFFFFF;
+  padding-right: 32px;
+}
+.btn{
+  display: flex;
+  gap: 5px;
+  font-size: 1rem;
+  font-weight: 600px;
+  color: #FFFFFF;
+  padding: 12px 16px;
+  border-radius: 1000px;
+  border: none;
+  background-color: aqua;
+}
+hr{
+  color: #40364d09;
+}
+/* banner related style */
+.banner{
+  width:1600px;
+  max-width: 100%;
+  background-color: #412567;
+  background-image: url(../assets/hero-bg.png);
+}
+.banner-container{
+  text-align: center;
+  padding: 100px 480px;
+}
+.banner-title{
+  font-size: 3.8rem;
+  font-weight: 800px;
+  color: #FFFFFF;
+  padding-top: 40px;
+}
+.banner-description{
+  font-size: 1rem;
+  color: #c0bdbd;
+  padding: 10px 0 24px;
+}
+.banner-button{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 120px;
+}
+.btn2{
+
+}
+/* about related style */
+.About{
+  width:1600px;
+  max-width: 100%;
+  background-color: #1A0B2E;
+  padding: 0 150px;
+}
+.About-container{
+  text-align: center;
+}
+.About-title{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-top: 40px;
+}
+.About-description{
+  font-size: 1rem;
+  line-height: 20px;
+  color: #c0bdbd;
+  padding-top: 16px;
+}
+.About hr{
+  color: #FFFFFF;
+  width: 1200px;
+  margin: 80px auto;
+}
+.About-item-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding-bottom: 100px;
+  justify-items: center;
+}
+.About-item{
+  text-align: center;
+}
+.About-item-title{
+  font-size: 3rem;
+  color: #00FF88;
+}
+.About-item-description{
+  font-size: 1rem;
+  line-height: 20px;
+  color: #ffffff;
+  padding-top: 16px;
+}
+
+/* about related style */
+.Choose{
+  width:1600px;
+  max-width: 100%;
+  background-color: #230E3D;
+  padding: 100px 150px;
+}
+.Choose-title{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-bottom: 40px;
+  text-align: center;
+}
