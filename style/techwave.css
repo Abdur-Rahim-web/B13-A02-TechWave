@@ -37,6 +37,7 @@
   padding: 12px 16px;
   border-radius: 1000px;
   border: none;
+  cursor: pointer;
   background: linear-gradient(#F7E93F,#FB09B4,#9100F8);
 }
 hr{
@@ -52,6 +53,17 @@ hr{
 .banner-container{
   text-align: center;
   padding: 100px 480px;
+}
+.banner-image{
+  position: relative;
+}
+.bg-image{
+  width: 100%;
+}
+.top-image{
+  position: absolute;
+  left: 40%;
+  bottom: 35%;
 }
 .banner-title{
   font-size: 3.8rem;
