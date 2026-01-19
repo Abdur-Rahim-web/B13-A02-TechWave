@@ -21,6 +21,18 @@
   align-items: center;
   padding: 30px 150px;
 }
+.nav-brand{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+#text-color{
+   font-size: 3.5rem;
+   font-weight: 700;
+   background: linear-gradient(#F7E93F,#FB09B4,#9100F8);
+   -webkit-background-clip: text; 
+   -webkit-text-fill-color: transparent;
+}
 .nav-item a{
   text-decoration: none;
   font-size: 1rem;
@@ -276,6 +288,11 @@ footer{
   background-image: url(../assets/footer-bg.png);
   text-align: center;
   padding: 155px 0 100px;
+}
+.footer-title{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #FFFFFF;
 }
 .footer-container{
   display: grid;
