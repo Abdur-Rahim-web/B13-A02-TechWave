@@ -10,12 +10,7 @@
   padding: 0;
   box-sizing: border-box;
 } 
-/* share related style  */
-
 /* header related style */
-.header{
-  
-}
 .nav-container{
   width:1600px;
   max-width: 100%;
@@ -66,7 +61,7 @@ hr{
 }
 .banner-description{
   font-size: 1rem;
-  color: #c0bdbd;
+  color: #bebcbc;
   padding: 10px 0 24px;
 }
 .banner-button{
@@ -97,7 +92,7 @@ hr{
 .About-description{
   font-size: 1rem;
   line-height: 20px;
-  color: #c0bdbd;
+  color: #bebcbc;
   padding-top: 16px;
 }
 .About hr{
@@ -121,7 +116,7 @@ hr{
 .About-item-description{
   font-size: 1rem;
   line-height: 20px;
-  color: #ffffff;
+  color: #bebcbc;
   padding-top: 16px;
 }
 
@@ -170,7 +165,7 @@ hr{
 }
 .Choose-grid-description{
   font-size: 1rem;
-  color: #d8d5d5;
+  color: #bebcbc;
   padding-top: 10px;
 }
 .c2{
@@ -219,14 +214,14 @@ hr{
 .card-description{
   font-size: 1rem;
   line-height: 24px;
-  color: #f0eeee;
+  color: #bebcbc;
   padding: 12px 0;
 }
 .card-duration h4{
  display: flex;
   gap: 10px;
 }
-/* about related style */
+/* host related style */
 .host-title{
   font-size: 3rem;
   font-weight: 700;
@@ -252,7 +247,7 @@ hr{
 .host-description{
   font-size: 1rem;
   line-height: 24px;
-  color: #f0eeee;
+  color: #bebcbc;
   padding: 16px 0;
 }
 .host-image img{
@@ -262,4 +257,39 @@ hr{
   border:1px solid #090909;
   border-radius: 100px;
 }
+/* footer related style */
+footer{
+  width:1600px;
+  max-width: 100%;
+  background-image: url(../assets/footer-bg.png);
+  text-align: center;
+  padding: 155px 0 100px;
+}
+.footer-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin: 0 380px 0 500px; 
+  gap: 15px;
+  padding: 30px 0;
+}
+.footer-container p{
+  display: flex;
+  gap: 10px;
+  font-size: 1rem;
+  font-weight: 500px;
+  line-height: 24px;
+  color: #bebcbc;
+
+}
+.footer-container p img{
+  width: 20pz;
+  height: 20px;
+}
+.footer-description{
+  font-size: 1rem;
+  line-height: 24px;
+  color: #bebcbc;
+}
+
+
 
