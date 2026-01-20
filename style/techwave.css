@@ -73,9 +73,23 @@ hr{
   width: 100%;
 }
 .top-image{
+  width: 200px;
   position: absolute;
-  left: 40%;
-  bottom: 35%;
+  left: 32%;
+  bottom: 25%;
+}
+.badge{
+  font-size: 1.25rem;
+  font-weight: 800px;
+  color: #1A0B2E;
+  background-color: #00FF88;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 0 3px 27px rgba(0, 255, 136, 0.5);
+  position: absolute;
+  top: 8%;
+  right: 8%;
 }
 .banner-title{
   font-size: 3.8rem;
