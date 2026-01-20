@@ -356,6 +356,9 @@ footer{
   .nav-container .btn, .nav-item{
     display: none;
   }
+  .hamburger{
+    display: block;
+  }
   .banner-container{
     padding: 20px;
   }
